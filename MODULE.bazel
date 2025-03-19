@@ -1,3 +1,5 @@
+module(name = "google_closure_compiler")
+
 bazel_dep(name = "rules_java", version = "8.6.1")
 bazel_dep(name = "protobuf", version = "29.1")
 bazel_dep(name = "bazel_jar_jar", version = "0.1.5")
