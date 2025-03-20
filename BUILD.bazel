@@ -89,6 +89,9 @@ java_binary(
         ":LICENSE",
     ],
     runtime_deps = [":compiler_lib"],
+    visibility = [
+        "//visibility:public",
+    ],
 )
 
 version = "$(COMPILER_VERSION)" or "1.0-SNAPSHOT"
